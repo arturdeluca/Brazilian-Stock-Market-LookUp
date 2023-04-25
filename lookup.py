@@ -23,7 +23,7 @@ def itub4_lookup():
             if qitub4 == "1":
                 while True:
                     try:
-                        with open("data/ITUB4_daily_max.csv", "r") as f:
+                        with open("ITUB4_daily_max.csv", "r") as f:
                             date = input(
                                 "\nQual data você gostaria de ver?\n  A data mais antiga disponível é '2000-12-21'\nO formato escrito deve ser YYYY-MM-DD\n\n"
                             )
@@ -48,7 +48,7 @@ def itub4_lookup():
             elif qitub4 == "2":
                 while True:
                     try:
-                        with open("data/ITUB4_monthly_max.csv", "r") as f:
+                        with open("ITUB4_monthly_max.csv", "r") as f:
                             date_month = input(
                                 "\nQual mês você gostaria de procurar?\n  O primeiro mẽs disponível é '2000-01'\nO formato escrito deve ser YYYY-MM\n"
                             )
@@ -96,7 +96,7 @@ def bbdc4_lookup():
             if qbbdc4 == "1":
                 while True:
                     try:
-                        with open("data/BBDC4_daily_max.csv", "r") as f:
+                        with open("BBDC4_daily_max.csv", "r") as f:
                             date = input(
                                 "\nQual data você gostaria de ver?\n  A data mais antiga disponível é '2008-01-02\nO formato escrito deve ser YYYY-MM-DD\n\n"
                             )
@@ -121,7 +121,7 @@ def bbdc4_lookup():
             elif qbbdc4 == "2":
                 while True:
                     try:
-                        with open("data/BBDC4_monthly_max.csv", "r") as f:
+                        with open("BBDC4_monthly_max.csv", "r") as f:
                             date_month = input(
                                 "\n\nQual mês de qual ano você gostaria de procurar?\n  O primeiro mês disponível é '2008-02'\nO formato escrito deve ser YYYY-MM\n"
                             )
@@ -169,7 +169,7 @@ def vale3_lookup():
             if qvale3 == "1":
                 while True:
                     try:
-                        with open("data/VALE3_daily_max.csv", "r") as f:
+                        with open("VALE3_daily_max.csv", "r") as f:
                             date = input(
                                 "\nQual data você gostaria de ver?\n  A data mais antiga disponível é '2008-01-03\nO formato escrito deve ser YYYY-MM-DD\n\n"
                             )
@@ -194,7 +194,7 @@ def vale3_lookup():
             elif qvale3 == "2":
                 while True:
                     try:
-                        with open("data/VALE3_monthly_max.csv", "r") as f:
+                        with open("VALE3_monthly_max.csv", "r") as f:
                             date_month = input(
                                 "\nQual mês de qual ano você gostaria de procurar?\n  O primeiro mês disponível é '2000-02'\nO formato escrito deve ser YYYY-MM\n"
                             )
